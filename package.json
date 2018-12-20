@@ -1,0 +1,23 @@
+{
+  "name": "yet-another-rate-limiter",
+  "version": "0.0.1",
+  "description": "Yet Another Rate Limiter",
+  "main": "index.js",
+  "scripts": {
+    "demo-local": "debug=yarl* node demo/local",
+    "demo-redis": "debug=yarl* node demo/redis"
+  },
+  "author": "Jansen Ignacio",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "express": "^4.16.4",
+    "ioredis": "^4.3.0",
+    "prettier": "^1.15.3"
+  },
+  "dependencies": {
+    "debug": "^4.1.0"
+  }
+}
